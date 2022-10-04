@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="img/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,700&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!--  Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Glidejs StyleSheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.core.css"
+      integrity="sha512-kcsVKF2zQWxpZox0QJTl40HBAhKLjfcUFw2LoTdHilSuHeOSg8uo8zf6ZiIUSHgHHl0H8zRkMcqJz2w4ZH57KA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Registro</title>
+</head>
+<body>
+  <header class="inicio" id="inicio">
+        <nav class="navegacion">
+          <div class="nav-centro contenedor">
+            <a href="index.html#inicio" class="logo">
+              <h1>CRUSTACEO CASCARUDO</h1>
+            </a>
+            <div class="nav-menu">
+              <div class="nav-top">
+                <div class="logo">
+                  <h1>CRUSTÁCEO CASCARUDO</h1>
+                </div>
+                <div class="cerrar">
+                  <i class="fas fa-times"></i>
+                </div>
+              </div>
+                      <ul class="nav-lista">
+                          <li class="nav-item">
+                              <a href="index.html#inicio" class="nav-link">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="Productos.html" class="nav-link">Productos</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="index.html#nosotros" class="nav-link">Nosotros</a>
+                          </li>
+                      </ul>
+            </div>
+  
+            <div class="nav-icons">
+              <span>
+                <a href="Registro.html" class="a-icon">
+                  <i class="fas fa-user-astronaut"></i>
+                </a>
+              </span>
+              <span>
+                <a href="Productos.html" class="a-icon">
+                  <i class="fas fa-search"></i>
+                </a>
+              </span>
+              <span>
+                <a href="Carrito.html" class="a-icon">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </span>
+            </div>
+  
+            <div class="hamburguesa">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+      <main>
+        <div class="div-formulario">
+          <form class="formulario-registro" id="formulario-registro">
+            <h1 class="logo">CRUSTÁCEO CASCARUDO</h1>
+            <h2 class="form-title">Inicia sesión</h2>
+            <p class="form-paragraph">
+              ¿No tienes cuenta? <a href="#" class="form-link">Entra aquí, hazte miembro y recibe las mejores promos</a>
+            </p>
+  
+            <div class="form-container">
+              <div class="form-group">
+                <input type="text" id="name" class="form-input" placeholder=" " />
+                <label for="name" class="form-label">Nombre:</label>
+                <span class="form-line"></span>
+              </div>
+              <div class="form-group">
+                <input type="text" id="email" class="form-input" placeholder=" " />
+                <label for="email" class="form-label">Email:</label>
+                <span class="form-line"></span>
+              </div>
+              <div class="form-group">
+                <input type="password" id="password" class="form-input" placeholder=" " autocomplete="off"/>
+                <label for="password" class="form-label">Contraseña:</label>
+                <span class="form-line"></span>
+              </div>
+              <div id="warnings">
+              </div>
+              <input type="submit" class="form-submit" value="Entrar" />
+            </div>
+          </form>
+        </div>
+      </main>
+  
+      <footer id="nosotros" class="bg-dark text-white py-4">
+        <div class="container">
+          <nav class="row">
+            <ul class="col-4 list-unstyled">
+              <li class="font-weight-bold text-uppercase">Contacto</li>
+              <li>
+                <a href="" class="text-reset mr-2"
+                  ><i class="fas fa-map-marker-alt"></i>Bogotá, Colombia</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-reset mr-2"
+                  ><i class="fas fa-mobile-alt"></i>3014376050</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-reset mr-2"
+                  ><i class="fas fa-envelope-open-text"></i
+                  >crustaceocascarudo@gmail.com</a
+                >
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="col-4 text-reset text-uppercase d-flex align-items-center"
+            >
+              <img
+                src="img/favicon.png"
+                alt="Logo"
+                class="img-logo mr-2"
+              />
+              Crustáceo Cascarudo
+            </a>
+            
+          </nav>
+        </div>
+      </footer>
+      <!-- Jquery -->
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+      ></script>
+      <!-- Glidejs -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
+      <!-- JavaScript -->
+      <script src="index.js"></script>
+      <script src="registro.js"></script>
+  
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+</body>
+
+</html>
